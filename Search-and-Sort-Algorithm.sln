@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search-Algorithm", "Search-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sort-Algorithm", "Sort-Algorithm", "{E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bubblesort", "Bubblesort\Bubblesort.csproj", "{D56A1303-7464-4D1F-9651-181A4CF9350D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bubblesort", "Sortingalgorithms\Bubblesort\Bubblesort.csproj", "{D56A1303-7464-4D1F-9651-181A4CF9350D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mergesort", "Mergesort\Mergesort.csproj", "{993336DF-6DC4-4D60-9B9A-345E1E3C4113}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mergesort", "Sortingalgorithms\Mergesort\Mergesort.csproj", "{993336DF-6DC4-4D60-9B9A-345E1E3C4113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
