@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BehindTheScene\Datastructures\Datastructures.csproj">
+      <Project>{ff7f98fd-d162-42fb-a287-75248aad9e51}</Project>
+      <Name>Datastructures</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using static Datastructures.Datastructures;
 
 namespace Bubblesort
 {
@@ -8,7 +9,7 @@ namespace Bubblesort
     {
         static void Main(string[] args)
         {
-            List<int> listToSort = generateList(0, 10000, 100000);
+            List<int> listToSort = MyLists.generateList(0, 10000, 100000);
             Console.Write("Unsorted List: ");
             //listToSort.ForEach(i => Console.Write("{0} ", i));
             Stopwatch watch = new Stopwatch();
@@ -19,20 +20,6 @@ namespace Bubblesort
             //listSorted.ForEach(i => Console.Write("{0} ", i));
             Console.WriteLine($"Bubblesort Execution Time: {watch.ElapsedMilliseconds} ms");
             Console.ReadKey();
-        }
-
-        public static List<int> generateList(int start, int end, int elementCount)
-        {
-            List<int> randomList = new List<int>();
-            Random rand = new Random();
-            int i = 0;
-            while(i <= elementCount)
-            {
-                int number = rand.Next(start, end);
-                randomList.Add(number);
-                i++;
-            }
-            return randomList;
         }
     }
 }
