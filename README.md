@@ -1,4 +1,4 @@
-# C-Search-and-Sort-Algorithms
+# csharp-Search-and-Sort-Algorithms
 My implementation of different search and sort algorithm. Still WIP
 
 ## Vergleichsbasiertes Sortieren:
