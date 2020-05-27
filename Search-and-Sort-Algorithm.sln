@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mergesort", "Sortingalgorit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heapsort", "Sortingalgorithms\Heapsort\Heapsort.csproj", "{A5A78640-C2F0-47AD-88E5-FC9D315AD202}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datastructures", "BehindTheScene\Datastructures\Datastructures.csproj", "{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behind-The-Scene", "Behind-The-Scene", "{6A2FA37C-57F6-4B80-829A-8755B55FB420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{A5A78640-C2F0-47AD-88E5-FC9D315AD202}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A78640-C2F0-47AD-88E5-FC9D315AD202}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A78640-C2F0-47AD-88E5-FC9D315AD202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,7 @@ Global
 		{D56A1303-7464-4D1F-9651-181A4CF9350D} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{993336DF-6DC4-4D60-9B9A-345E1E3C4113} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{A5A78640-C2F0-47AD-88E5-FC9D315AD202} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
+		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7} = {6A2FA37C-57F6-4B80-829A-8755B55FB420}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF48B23-92F1-4549-A15A-14DAC1446AF8}

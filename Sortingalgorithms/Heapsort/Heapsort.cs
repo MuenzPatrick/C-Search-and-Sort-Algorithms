@@ -5,35 +5,46 @@ using static Datastructures.Datastructures;
 
 namespace Heapsort
 {
-    class Heapsort
+    public class Heapsort
     {
-        public List<int> listToSort { get; set; }
-        public BinaryNode Tree { get; set; }
-        public void BuildHeap()
+        /// <summary>
+        /// Converts given arr in Heap and replaces largest element by  the rightmost leaf element
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        public static void heapSort(int[] arr, int n)
         {
-            Queue<BinaryNode> parents = new Queue<BinaryNode>();
-            this.Tree.value = listToSort[0];
-            int head = listToSort[1];
-            parents.Enqueue(Tree);
-            int i = 2;
-            while(i < listToSort.Count)
+            for (int i = n / 2 - 1; i >= 0; i--)
+                heapify(arr, n, i);
+            for (int i = n - 1; i >= 0; i--)
             {
-                BinaryNode parent = parents.Peek();
-                parents.Dequeue();
-                BinaryNode leftChild = new BinaryNode();
-                BinaryNode rightChild = null;
-                leftChild.value = listToSort[i];
-                i++;
-                parents.Enqueue(leftChild);
-                if (i < listToSort.Count)
-                {
-                    rightChild = new BinaryNode();
-                    rightChild.value = listToSort[i];
-                    i++;
-                    parents.Enqueue(rightChild);
-                }
-                parent.leftChild = leftChild;
-                parent.rightChild = rightChild;
+                int temp = arr[0];
+                arr[0] = arr[i];
+                arr[i] = temp;
+                heapify(arr, i, 0);
+            }
+        }
+        /// <summary>
+        /// Creates Heapstrcuture by arrainging elements as required.
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="n"></param>
+        /// <param name="i"></param>
+        static void heapify(int[] arr, int n, int i)
+        {
+            int largest = i;
+            int left = 2 * i + 1;
+            int right = 2 * i + 2;
+            if (left < n && arr[left] > arr[largest])
+                largest = left;
+            if (right < n && arr[right] > arr[largest])
+                largest = right;
+            if (largest != i)
+            {
+                int swap = arr[i];
+                arr[i] = arr[largest];
+                arr[largest] = swap;
+                heapify(arr, n, largest);
             }
         }
     }
