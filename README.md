@@ -5,7 +5,7 @@ My implementation of different search and sort algorithm. Still WIP
 | Sortieralgorithmus	| Best-Case |	Average-Case |	Worst-Case |	Stabil |	In-Place | Done |
 |---------------------|-----------|--------------|-------------|---------|-----------|------|
 | Bubblesort | O(n) |	O(n^2) |	O(n^2) |	Ja |	Ja | Ja |
-| Heapsort |	O(n * log(n)) |	O(n * log(n)) |	O(n * log(n)) |	Nein |	Ja | Nein |
+| Heapsort |	O(n * log(n)) |	O(n * log(n)) |	O(n * log(n)) |	Nein |	Ja | Ja |
 | Insertionsort |	O(n) |	O(n^2) |	O(n^2) |	Ja |	Ja | Nein |
 | Mergesort |	O(n * log(n)) |	O(n * log(n)) |	O(n * log(n)) |	Ja |	Nein | Ja |
 | Quicksort |	O(n * log(n)) |	O(n * log(n)) |	O(n^2) |	Nein |	Ja | Nein |
