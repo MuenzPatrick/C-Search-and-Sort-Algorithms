@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datastructures", "BehindThe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behind-The-Scene", "Behind-The-Scene", "{6A2FA37C-57F6-4B80-829A-8755B55FB420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insertionsort", "Sortingalgorithms\Insertionsort\Insertionsort.csproj", "{F41C63CB-DC48-4196-A3CD-F31FDCC163FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41C63CB-DC48-4196-A3CD-F31FDCC163FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41C63CB-DC48-4196-A3CD-F31FDCC163FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41C63CB-DC48-4196-A3CD-F31FDCC163FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41C63CB-DC48-4196-A3CD-F31FDCC163FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{993336DF-6DC4-4D60-9B9A-345E1E3C4113} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{A5A78640-C2F0-47AD-88E5-FC9D315AD202} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7} = {6A2FA37C-57F6-4B80-829A-8755B55FB420}
+		{F41C63CB-DC48-4196-A3CD-F31FDCC163FE} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF48B23-92F1-4549-A15A-14DAC1446AF8}
