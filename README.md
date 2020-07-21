@@ -9,7 +9,7 @@ My implementation of different search and sort algorithm. Still WIP
 | Insertionsort |	O(n) |	O(n^2) |	O(n^2) |	Ja |	Ja | Ja |
 | Mergesort |	O(n * log(n)) |	O(n * log(n)) |	O(n * log(n)) |	Ja |	Nein | Ja |
 | Quicksort |	O(n * log(n)) |	O(n * log(n)) |	O(n^2) |	Nein |	Ja | Ja |
-| Selectionsort |	O(n^2) |	O(n^2) |	O(n^2) |	Nein |	Ja | Nein |
+| Selectionsort |	O(n^2) |	O(n^2) |	O(n^2) |	Nein |	Ja | Ja |
 | Shellsort	|	O(n * log(n)^2) |	O(n^1,25) |	Nein |	Ja | Nein | Nein |
 
 ## Adressiertes Sortieren:
