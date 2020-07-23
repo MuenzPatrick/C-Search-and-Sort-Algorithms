@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using static Datastructures.Datastructures;
 
@@ -19,7 +18,7 @@ namespace Heapsort
             } */
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            Heapsort.heapSort(arrToSort, arrToSort.Length);
+            Sort.Heapsort.heapSort(arrToSort, arrToSort.Length);
             watch.Stop();
             Console.Write("\nSorted List: ");
             /*foreach (int i in arrToSort)

@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static Datastructures.Datastructures;
 
 namespace Insertionsort
@@ -22,7 +18,7 @@ namespace Insertionsort
             }
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            Insertionsort.Sort(arrToSort);
+            Sort.Insertionsort.Sort(arrToSort);
             watch.Stop();
             Console.Write("\nSorted List: ");
             foreach (int i in arrToSort)

@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static Datastructures.Datastructures;
 
 namespace Mergesort
@@ -17,7 +14,7 @@ namespace Mergesort
             //listToSort.ForEach(i => Console.Write("{0} ", i));
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            List<int> sortedList = Mergesort.runSynchron(listToSort);
+            List<int> sortedList = Sort.Mergesort.runSynchron(listToSort);
             watch.Stop();
             Console.Write("\nSorted List: ");
             //sortedList.ForEach(i => Console.Write("{0} ", i));

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using static Datastructures.Datastructures;
-
 namespace Bubblesort
 {
     class Program
@@ -14,7 +13,7 @@ namespace Bubblesort
             //listToSort.ForEach(i => Console.Write("{0} ", i));
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            List<int> listSorted = Bubblesort.RunSynchron(listToSort,false);
+            List<int> listSorted = Sort.Bubblesort.RunSynchron(listToSort,false);
             watch.Stop();
             Console.Write("\nSorted List: ");
             //listSorted.ForEach(i => Console.Write("{0} ", i));

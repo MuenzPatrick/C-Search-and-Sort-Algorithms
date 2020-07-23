@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using static Datastructures.Datastructures;
 
 namespace Countingsort
@@ -17,7 +14,7 @@ namespace Countingsort
             listToSort.ForEach(i => Console.Write("{0} ", i));
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            Countingsort.runSynchron(listToSort);
+            Sort.Countingsort.runSynchron(listToSort);
             watch.Stop();
             Console.Write("\nSorted List: ");
             listToSort.ForEach(i => Console.Write("{0} ", i));

@@ -17,7 +17,7 @@ namespace Radixsort
             listToSort.ForEach(i => Console.Write("{0} ", i));
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            Radixsort.runSynchron(listToSort);
+            Sort.Radixsort.runSynchron(listToSort);
             watch.Stop();
             Console.Write("\nSorted List: ");
             listToSort.ForEach(i => Console.Write("{0} ", i));
