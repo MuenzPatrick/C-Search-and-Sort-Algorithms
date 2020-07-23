@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using static Datastructures.Datastructures;
 
-namespace Heapsort
+namespace Sort
 {
     public class Heapsort
     {

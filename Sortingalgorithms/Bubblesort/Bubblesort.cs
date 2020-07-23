@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bubblesort
+namespace Sort
 {
     /// <summary>
     /// Class contains Bubblesort variantes

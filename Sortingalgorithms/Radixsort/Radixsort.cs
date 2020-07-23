@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Countingsort;
-namespace Radixsort
+
+namespace Sort
 {
     class Radixsort
     {

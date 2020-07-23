@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static Datastructures.Datastructures;
-
+using Sort;
 namespace Shellsort
 {
     class Program
@@ -17,7 +17,7 @@ namespace Shellsort
             listToSort.ForEach(i => Console.Write("{0} ", i));
             Stopwatch watch = new Stopwatch();
             watch.Start();
-            List<int> sortedList = Shellsort.runSynchron(listToSort);
+            List<int> sortedList = Sort.Shellsort.runSynchron(listToSort);
             watch.Stop();
             Console.Write("\nSorted List: ");
             sortedList.ForEach(i => Console.Write("{0} ", i));

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Insertionsort;
-namespace Shellsort
+namespace Sort
 {
     class Shellsort
     {
