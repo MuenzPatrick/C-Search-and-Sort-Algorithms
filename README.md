@@ -15,6 +15,6 @@ My implementation of different search and sort algorithm. Still WIP
 ## Adressiertes Sortieren:
 | Sortieralgorithmus |	Laufzeitkomplexität |	Speicherplatzkomplexität |	Stabil |	In-Place | Done |
 |--------------------|----------------------|--------------------------|---------|-----------|------|
-| Bucketsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Nein |
+| Bucketsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Ja |
 | Countingsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Nein |
 | Radixsort	| O(n * l) |	O(n) |	Ja |	Nein | Nein |
