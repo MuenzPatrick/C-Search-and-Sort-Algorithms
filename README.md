@@ -17,4 +17,4 @@ My implementation of different search and sort algorithm. Still WIP
 |--------------------|----------------------|--------------------------|---------|-----------|------|
 | Bucketsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Ja |
 | Countingsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Ja |
-| Radixsort	| O(n * l) |	O(n) |	Ja |	Nein | Nein |
+| Radixsort	| O(n * l) |	O(n) |	Ja |	Nein | Ja |
