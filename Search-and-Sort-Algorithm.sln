@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shellsort", "Sortingalgorit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucketsort", "Sortingalgorithms\Bucketsort\Bucketsort.csproj", "{E56012F6-69B0-4ACA-8DC3-076BBD102244}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countingsort", "Sortingalgorithms\Countingsort\Countingsort.csproj", "{C1180E45-7B57-42CC-81DE-BAB5081D575B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{E56012F6-69B0-4ACA-8DC3-076BBD102244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56012F6-69B0-4ACA-8DC3-076BBD102244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56012F6-69B0-4ACA-8DC3-076BBD102244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1180E45-7B57-42CC-81DE-BAB5081D575B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1180E45-7B57-42CC-81DE-BAB5081D575B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1180E45-7B57-42CC-81DE-BAB5081D575B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1180E45-7B57-42CC-81DE-BAB5081D575B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{D4ECB1DA-34A1-4B56-9B9B-8DC14C297526} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{5B4D90BA-FAD8-48AE-B5DF-C02FA10F789A} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{E56012F6-69B0-4ACA-8DC3-076BBD102244} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
+		{C1180E45-7B57-42CC-81DE-BAB5081D575B} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF48B23-92F1-4549-A15A-14DAC1446AF8}
