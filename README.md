@@ -16,5 +16,5 @@ My implementation of different search and sort algorithm. Still WIP
 | Sortieralgorithmus |	Laufzeitkomplexität |	Speicherplatzkomplexität |	Stabil |	In-Place | Done |
 |--------------------|----------------------|--------------------------|---------|-----------|------|
 | Bucketsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Ja |
-| Countingsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Nein |
+| Countingsort |	O(n+k) |	O(n+k) |	Ja |	Nein | Ja |
 | Radixsort	| O(n * l) |	O(n) |	Ja |	Nein | Nein |
