@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Countingsort", "Sortingalgo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radixsort", "Sortingalgorithms\Radixsort\Radixsort.csproj", "{561E3F37-C0BB-4C29-9D33-10973F80CCF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "Searchalgorithms\BinarySearch\BinarySearch.csproj", "{BF73842D-B080-413B-B6DA-F53B15CA1353}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{561E3F37-C0BB-4C29-9D33-10973F80CCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{561E3F37-C0BB-4C29-9D33-10973F80CCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{561E3F37-C0BB-4C29-9D33-10973F80CCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF73842D-B080-413B-B6DA-F53B15CA1353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF73842D-B080-413B-B6DA-F53B15CA1353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF73842D-B080-413B-B6DA-F53B15CA1353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF73842D-B080-413B-B6DA-F53B15CA1353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{E56012F6-69B0-4ACA-8DC3-076BBD102244} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{C1180E45-7B57-42CC-81DE-BAB5081D575B} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
 		{561E3F37-C0BB-4C29-9D33-10973F80CCF7} = {E1BF772E-B6B5-4EC9-9D90-6CAA4A1F393C}
+		{BF73842D-B080-413B-B6DA-F53B15CA1353} = {636B9A89-2F8D-41CA-84E7-08ED04C695AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CF48B23-92F1-4549-A15A-14DAC1446AF8}

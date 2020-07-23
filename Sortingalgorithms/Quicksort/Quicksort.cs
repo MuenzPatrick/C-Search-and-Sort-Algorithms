@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sort
 {
-    class Quicksort
+    public class Quicksort
     {
         public static List<int> runSynchron(List<int> listToSort, Boolean showProgress = false)
         {
