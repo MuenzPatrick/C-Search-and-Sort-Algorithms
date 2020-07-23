@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B4D90BA-FAD8-48AE-B5DF-C02FA10F789A}</ProjectGuid>
+    <ProjectGuid>{561E3F37-C0BB-4C29-9D33-10973F80CCF7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Shellsort</RootNamespace>
-    <AssemblyName>Shellsort</AssemblyName>
+    <RootNamespace>Radixsort</RootNamespace>
+    <AssemblyName>Radixsort</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shellsort.cs" />
+    <Compile Include="Radixsort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -55,9 +55,9 @@
       <Project>{EBDB95E4-AAFA-4C6C-9AC0-E001247F96E7}</Project>
       <Name>Datastructures</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Insertionsort\Insertionsort.csproj">
-      <Project>{f41c63cb-dc48-4196-a3cd-f31fdcc163fe}</Project>
-      <Name>Insertionsort</Name>
+    <ProjectReference Include="..\Countingsort\Countingsort.csproj">
+      <Project>{c1180e45-7b57-42cc-81de-bab5081d575b}</Project>
+      <Name>Countingsort</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

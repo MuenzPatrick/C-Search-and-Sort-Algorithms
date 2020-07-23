@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Countingsort
 {
-    class Countingsort
+    public class Countingsort
     {
         public static void runSynchron(List<int> listToSort)
         {
@@ -25,6 +26,27 @@ namespace Countingsort
                     finalposition++;
                 }
             }
+        }
+
+        public static void run_with_faktor(List<int> liste, int i, int faktor)
+        {
+            int[] ausgabe = new int[i];
+            int a;
+            int[] zaehlen = new int[10];
+            zaehlen.Initialize();
+            for (a = 0; a < i; a++)
+                zaehlen[(liste[a] / faktor) % 10]++;
+            for (a = 1; a < 10; a++)
+                zaehlen[a] += zaehlen[a - 1];
+
+            for (a = i-1; a >= 0; a--)
+            {
+                ausgabe[zaehlen[(liste[a] / faktor) % 10] - 1] = liste[a];
+                zaehlen[(liste[a] / faktor) % 10] --;
+            }
+
+            for (a = 0; a < i; a++)
+                liste[a] = ausgabe[a];
         }
     }
 }
